@@ -128,7 +128,8 @@ The backend follows best practices in API development, including data validation
   ```sh
   heroku config:set PORT=3000
   heroku config:set DATABASE=your_mongodb_connection_string
-  - **6-open the app**
+  
+- **6-open the app**
   ```sh
   heroku open
 
@@ -145,15 +146,15 @@ The backend follows best practices in API development, including data validation
 
 
 ## 🤝 Contribution
-- Fork the repository
+- 1- Fork the repository
 
-- Create a new branch (feature/new-feature)
+- 2- Create a new branch (feature/new-feature)
 
-- Commit your changes (git commit -m "Added a new feature")
+- 3- Commit your changes (git commit -m "Added a new feature")
 
-- Push to the branch (git push origin feature/new-feature)
+- 4- Push to the branch (git push origin feature/new-feature)
 
-- Open a pull request
+- 5- Open a pull request
 
 
 
