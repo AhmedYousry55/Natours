@@ -33,16 +33,16 @@ The backend follows best practices in API development, including data validation
 
 ## 📂 Project Structure  
 
-Natours/
-│── controllers/      # Route handlers (Business logic)
-│── models/           # Mongoose models
-│── routes/           # Express routes
-│── public/           # Static assets
-│── utils/            # Helper functions
-│── config.env        # Environment variables
-│── server.js         # Entry point
-│── package.json      # Dependencies
-│── README.md         # Project documentation
+- Natours/
+- │── controllers/      # Route handlers (Business logic)
+- │── models/           # Mongoose models
+- │── routes/           # Express routes
+- │── public/           # Static assets
+- │── utils/            # Helper functions
+- │── config.env        # Environment variables
+- │── server.js         # Entry point
+- │── package.json      # Dependencies
+- │── README.md         # Project documentation
 
 
 ## 🏗️ Installation & Setup  
@@ -112,10 +112,32 @@ Natours/
 
 ## 🚀 Deployment
 ### Deploy to Heroku
-**1-Install Heroku CLI**
+- **1-Install Heroku CLI**
 npm install -g heroku
-**2-Login to heroku**
+- **2-Login to heroku**
 heroku login
+- **3-Create a Heroku App**
+heroku create natours-api
+- **4-push the project**
+  git push heroku main
+- **5-Set environment variables**
+  heroku config:set PORT=3000
+  heroku config:set DATABASE=your_mongodb_connection_string
+  - **6-open the app**
+  heroku open
+
+## Deploy to Render
+- 1- Go to Render
+
+Click New Web Service
+
+Connect to GitHub and select the Natours repo
+
+Set the environment variables
+
+Click Deploy
+
+
 
 
 
