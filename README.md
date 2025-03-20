@@ -113,18 +113,24 @@ The backend follows best practices in API development, including data validation
 ## 🚀 Deployment
 ### Deploy to Heroku
 - **1-Install Heroku CLI**
-- npm install -g heroku
+   ```sh
+  npm install -g heroku
 - **2-Login to heroku**
-- heroku login
+  ```sh
+  heroku login
 - **3-Create a Heroku App**
-- heroku create natours-api
+  ```sh
+  heroku create natours-api
 - **4-push the project**
-- git push heroku main
+  ```sh
+  git push heroku main
 - **5-Set environment variables**
-- heroku config:set PORT=3000
-- heroku config:set DATABASE=your_mongodb_connection_string
+  ```sh
+  heroku config:set PORT=3000
+  heroku config:set DATABASE=your_mongodb_connection_string
   - **6-open the app**
-- heroku open
+  ```sh
+  heroku open
 
 ## Deploy to Render
 - 1- Go to Render
