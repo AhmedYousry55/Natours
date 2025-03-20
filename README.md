@@ -47,20 +47,10 @@ Natours/
 │── README.md         # Project documentation
 
 
-## 🏗️ Installation & Setup
-### 1- Clone the repository
-**git clone https://github.com/AhmedYousry55/Natours.git
-**cd Natours
-### 2- Install dependencies
-**npm install
-### 3- Set up environment variables
-**Create a .env file in the root directory and add:
-PORT=3000
-DATABASE=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-STRIPE_SECRET_KEY=your_stripe_key
-EMAIL_USERNAME=your_email
-EMAIL_PASSWORD=your_password
-### 4- Run the development server:
-**npm run dev
+## 🏗️ Installation & Setup  
+
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/AhmedYousry55/Natours.git
+   cd Natours
 
