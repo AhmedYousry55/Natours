@@ -68,40 +68,40 @@ Natours/
 
 ## 🔗 API Endpoints
 ### Authentication
-**POST /api/v1/users/signup - Register a new user**
+- **POST /api/v1/users/signup - Register a new user**
 
-**POST /api/v1/users/login - Log in**
+- **POST /api/v1/users/login - Log in**
 
-**GET /api/v1/users/logout - Log out**
+- **GET /api/v1/users/logout - Log out**
 
-**POST /api/v1/users/forgotPassword - Reset password**
+- **POST /api/v1/users/forgotPassword - Reset password**
 
 ## Tours
-**GET /api/v1/tours - Get all tours**
+- **GET /api/v1/tours - Get all tours**
 
-**GET /api/v1/tours/:id - Get a single tour**
+- **GET /api/v1/tours/:id - Get a single tour**
 
-**POST /api/v1/tours - Create a new tour (Admin only)**
+- **POST /api/v1/tours - Create a new tour (Admin only)**
 
-**PATCH /api/v1/tours/:id - Update tour (Admin only)**
+- **PATCH /api/v1/tours/:id - Update tour (Admin only)**
 
-**DELETE /api/v1/tours/:id - Delete tour (Admin only)**
+- **DELETE /api/v1/tours/:id - Delete tour (Admin only)**
 
 ## Bookings
-**POST /api/v1/bookings/checkout-session/:tourId - Stripe checkout**
+- **POST /api/v1/bookings/checkout-session/:tourId - Stripe checkout**
 
-**GET /api/v1/bookings - Get all bookings**
+- **GET /api/v1/bookings - Get all bookings**
 
-**For the complete list of endpoints, check the routes/ directory.**
+- **For the complete list of endpoints, check the routes/ directory.**
 
 ## 🛡️ Security & Best Practices
-**JWT-based authentication to secure user data**
+- **JWT-based authentication to secure user data**
 
-**Rate limiting & CORS to prevent API abuse**
+- **Rate limiting & CORS to prevent API abuse**
 
-**Sanitization & validation to prevent NoSQL injection and XSS attacks**
+- **Sanitization & validation to prevent NoSQL injection and XSS attacks**
 
-**Secure password hashing using bcryptjs**
+- **Secure password hashing using bcryptjs**
 
 
 
