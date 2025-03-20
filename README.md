@@ -103,5 +103,21 @@ Natours/
 
 - **Secure password hashing using bcryptjs**
 
+## 🎯 Future Enhancements
+- **Implement a GraphQL version of the API**
+
+- **Improve tour recommendation system using AI**
+
+- **Add unit & integration tests with Jest**
+
+## 🚀 Deployment
+### Deploy to Heroku
+**1-Install Heroku CLI**
+npm install -g heroku
+**2-Login to heroku**
+heroku login
+
+
+
 
 
